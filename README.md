@@ -10,5 +10,5 @@ In this experiment, an "extreme" day is one where the value of at least one para
 
 # Results
 A variety of the maps were created such as the one below. 
-
+<img src="AnaheimGraph2020.png" width=75%>
 An important note is that while the number of compound days on average increases as time goes on, the number of avaialable sensors for data collection also increased in that time period, os while it may be possible that there has been an increase in co-extreme days over the past quarter century, it is not safe to conclude so based on this evidence alone.
