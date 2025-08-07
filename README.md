@@ -4,11 +4,13 @@ It is well known in the scientific community that exposure to either extreme hea
 # Methodology
 The U.S. EPA Air Quality Database was used to map out the distribution of both extreme heat and PM2.5 conditions. A total of __ sensors were utilized and graphed in total. 
 
-The "Average Ambient Temperature" parameter was used to determine extreme temperature days, however the "Outdoor Temperature" parameter was used in its place when the former could not be found. To my knowledge, there is no publicly available documentation which discusses the difference between the two. "Average PM2.5 Concentration" parameter was used to determine PM2.5 values.
+The "Ambient Max Temperature" parameter was used to determine extreme temperature days, however the "Outdoor Temperature" parameter was used in its place when the former could not be found. To my knowledge, there is no publicly available documentation which discusses the difference between the two. "Average PM2.5 Concentration" parameter was used to determine PM2.5 values.
 
-In this experiment, an "extreme" day is one where the value of at least one parameter falls within the 90th percentile of that year. A "co-extreme" day is one where both temperature and PM2.5 concentration values fall within the 90th percentile. (These are indicated with a red star.)
+In this experiment, an "extreme" day is one where the value of at least one parameter falls within the 90th percentile of that year. A "co-extreme" day (also reffered to as "compound" day) is one where both temperature and PM2.5 concentration values fall within the 90th percentile. (These are indicated with a red star.)
 
 # Results
-A variety of the maps were created such as the one below. 
+Below is a sample of a times series depicting the occurence of co-extreme days in the city of Anaheim. 
 <img src="AnaheimGraph2020.png" width=100%>
-An important note is that while the number of compound days on average increases as time goes on, the number of avaialable sensors for data collection also increased in that time period, os while it may be possible that there has been an increase in co-extreme days over the past quarter century, it is not safe to conclude so based on this evidence alone.
+The following is a map depicting the number of co-extreme days across the state of California in the year 2021.
+<img src="">
+An important note is that while the number of compound days on average increases as time goes on, the number of available sensors for data collection also increased in that time period, so while it may be possible that there has been an increase in co-extreme days over the past quarter century, it is not safe to conclude so based on this evidence alone.
