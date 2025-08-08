@@ -2,7 +2,7 @@
 It is well known in the scientific community that exposure to either extreme heat or extreme concetrations of pollutants (such as PM 2.5) can pose severe health risks. However, new evidence is emerging that may suggest that the simultanous expoisure of both these conditions may create a synergestic effect where the harmful effects of both can be augmented. This notebook attempts to map the number of these compound days across the state of California, to see how the prevalence of these harmful conditions have changed over time.
 
 # Methodology
-The U.S. EPA Air Quality Database was used to map out the distribution of both extreme heat and PM2.5 conditions. A total of __ sensors were utilized and graphed in total. 
+The U.S. EPA Air Quality Database was used to map out the distribution of both extreme heat and PM2.5 conditions. A total of 40 sensors were utilized and graphed in total. 
 
 The "Ambient Max Temperature" parameter was used to determine extreme temperature days, however the "Outdoor Temperature" parameter was used in its place when the former could not be found. To my knowledge, there is no publicly available documentation which discusses the difference between the two. "Average PM2.5 Concentration" parameter was used to determine PM2.5 values.
 
@@ -12,5 +12,11 @@ In this experiment, an "extreme" day is one where the value of at least one para
 Below is a sample of a times series depicting the occurence of co-extreme days in the city of Anaheim. 
 <img src="Images/AnaheimGraph2020.png" width=100%>
 The following is a map depicting the number of co-extreme days across the state of California in the year 2021.
-<img src="Images/CoextremeMap2021.png" width="75%">
+<img src="Images/CoextremeMap2021.png" width="75%" align="center">
 An important note is that while the number of compound days on average increases as time goes on, the number of available sensors for data collection also increased in that time period, so while it may be possible that there has been an increase in co-extreme days over the past quarter century, it is not safe to conclude so based on this evidence alone.
+
+# Notes 
+The code for retreiving multiple files at once from the Air Quality API has been included under "AirQualityDownloadScript.py". In order to access the API system you must create an account within the EPA website.
+
+# Sources
+[US EPA AQ Data](https://www.epa.gov/outdoor-air-quality-data): US Environmental Protection Agency. Air Quality System Data Mart available via https://www.epa.gov/outdoor-air-quality-data. Accessed March 01, 2025.
