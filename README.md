@@ -12,5 +12,5 @@ In this experiment, an "extreme" day is one where the value of at least one para
 Below is a sample of a times series depicting the occurence of co-extreme days in the city of Anaheim. 
 <img src="Images/AnaheimGraph2020.png" width=100%>
 The following is a map depicting the number of co-extreme days across the state of California in the year 2021.
-<img src="Images/CoextremeMap2021.png">
+<img src="Images/CoextremeMap2021.png" width="75%">
 An important note is that while the number of compound days on average increases as time goes on, the number of available sensors for data collection also increased in that time period, so while it may be possible that there has been an increase in co-extreme days over the past quarter century, it is not safe to conclude so based on this evidence alone.
